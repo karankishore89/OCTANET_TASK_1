@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("Awesome 4K Fitness Wallpapers - WallpaperAccess.jpeg")
+      no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .left img {
+    width: 100px;
+    filter: invert(100%);
+  }
+
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar li {
+    margin: 0 15px;
+  }
+
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .navbar li a:hover {
+    background-color: #00ff00; /* Neon Green */
+    color: #000;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+  }
+
+  .right .mybtn {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: #ffffff; /* BlueViolet */
+    margin-left: 10px;
+  }
+
+  .right .mybtn:hover {
+    background-color: #00ff00; /* Neon Green */
+    color: #000;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+  }
+
+  .cent {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .cent img {
+    width: 200px;
+  }
+
+  .container {
+    border: 2px solid #03fa8b; /* Bright Green */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 30px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+  }
+
+  .content input {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    width: 80%;
+  }
+
+  .finalbtn {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+    background-color: #8a2be2; /* BlueViolet */
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    width: 80%;
+  }
+
+  .finalbtn:hover {
+    background-color: #00ff00; /* Neon Green */
+    color: #000;
+    transition: 0.4s;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+  }
+
+  .workout-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.9); /* White box color */
+    border-radius: 10px;
+  }
+
+  .workout-card {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+  }
+
+  .workout-card h3 {
+    margin-bottom: 20px;
+  }
+
+  .workout-card p {
+    margin-bottom: 20px;
+  }
+
+  .workout-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #8a2be2; /* BlueViolet */
+    transition: 0.3s;
+  }
+
+  .workout-card a:hover {
+    background-color: #00ff00; /* Neon Green */
+    color: #000;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+  }
+
+  .new-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px auto;
+    padding: 40px;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.9); /* White box color */
+    border-radius: 10px;
+    color: black;
+  }
+
+  .new-section h2 {
+    margin-bottom: 20px;
+    color: #000;
+  }
+
+  .new-section input,
+  .new-section select {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    width: 80%;
+  }
+
+  .new-section button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+    background-color: #8a2be2; /* BlueViolet */
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    width: 80%;
+  }
+
+  .new-section button:hover {
+    background-color: #00ff00; /* Neon Green */
+    color: #000;
+    transition: 0.4s;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+  }
+
+  .new-section p {
+    color: #000;
+    margin-top: 10px;
+  }
+
+  .new-section #hash-tags {
+    color: #8a2be2;
+  }
